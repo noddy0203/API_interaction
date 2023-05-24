@@ -1,0 +1,31 @@
+.card{
+  width: 50rem;
+  padding: 2.5rem;
+  background-color: aliceblue;
+}
+
+.card_button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.card_button a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.remove{
+  color: red;
+}
+
+@media screen and (max-width:768px) {
+    html {
+      font-size: 51%;
+    }
+    .card{
+      min-width: 35rem;
+      padding :2rem;
+    }
+}
